@@ -3,6 +3,11 @@
   "name": "arXiv Abstract Opener",
   "version": "1.0",
   "description": "Open arXiv abstract page from PDF link via context menu",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "arxiv-opener@ivarru.github.io"
+    }
+  },
   "permissions": [
     "contextMenus",
     "tabs"
