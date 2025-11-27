@@ -1,3 +1,5 @@
+** Beware: This is an experiment in vibe coding. Use at your own risk. **
+
 # arXiv Abstract Opener
 
 A simple Firefox extension that adds a context menu option to open arXiv abstract pages from PDF links.
