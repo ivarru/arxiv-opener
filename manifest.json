@@ -5,7 +5,10 @@
   "description": "Open arXiv abstract page from PDF link via context menu",
   "browser_specific_settings": {
     "gecko": {
-      "id": "arxiv-opener@ivarru.github.io"
+      "id": "arxiv-opener@ivarru.github.io",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
     }
   },
   "permissions": [
