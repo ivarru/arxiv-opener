@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "arXiv Abstract Opener",
+  "version": "1.0",
+  "description": "Open arXiv abstract page from PDF link via context menu",
+  "permissions": [
+    "contextMenus",
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "48": "icon.png"
+  }
+}
