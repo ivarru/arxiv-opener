@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "arXiv Abstract Opener",
-  "version": "1.0",
-  "description": "Open arXiv abstract page from PDF link via context menu",
+  "version": "1.1",
+  "description": "Switch between arXiv abstract and PDF pages via context menu",
   "browser_specific_settings": {
     "gecko": {
       "id": "arxiv-opener@ivarru.github.io",

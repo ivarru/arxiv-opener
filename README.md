@@ -2,11 +2,12 @@
 
 # arXiv Abstract Opener
 
-A simple Firefox extension that adds a context menu option to open arXiv abstract pages from PDF links.
+A simple Firefox extension that adds context menu options to switch between arXiv abstract and PDF pages.
 
 ## Features
 
-When you right-click on an arXiv PDF link (e.g., `https://arxiv.org/pdf/2301.12345.pdf`), you'll see an "Open arXiv Abstract" option that opens the corresponding abstract page (e.g., `https://arxiv.org/abs/2301.12345`).
+- When you right-click on an arXiv PDF link (e.g., `https://arxiv.org/pdf/2301.12345.pdf`), you'll see an "Open arXiv abstract" option that opens the corresponding abstract page (e.g., `https://arxiv.org/abs/2301.12345`)
+- When you right-click on an arXiv abstract link (e.g., `https://arxiv.org/abs/2301.12345`), you'll see an "Open arXiv PDF" option that opens the corresponding PDF (e.g., `https://arxiv.org/pdf/2301.12345.pdf`)
 
 ## Installation
 
@@ -34,7 +35,7 @@ Note: For permanent installation in release Firefox, the extension needs to be s
 
 ## Usage
 
-1. Navigate to any page with arXiv PDF links
-2. Right-click on an arXiv PDF link
-3. Select "Open arXiv Abstract" from the context menu
-4. The abstract page opens in a new tab
+1. Navigate to any page with arXiv links (PDF or abstract)
+2. Right-click on an arXiv link
+3. Select either "Open arXiv abstract" or "Open arXiv PDF" from the context menu
+4. The corresponding page opens in a new tab
